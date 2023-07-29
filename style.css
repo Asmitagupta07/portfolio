@@ -1,0 +1,307 @@
+body{
+    margin: auto;
+    height: auto;
+    font-family: sans-serif;
+}
+
+.banner{
+    padding:80px 0px
+}
+
+.logo img {
+    width: 50%;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: end;
+}
+
+ul.nav-items li {
+    padding: 0px 40px;
+    font-size: 18px;
+    list-style: none;
+}
+
+ul.nav-items li a {
+    color: #000000;
+    font-weight: 500;
+}
+
+ul.nav-items li a:hover {
+    color: #b12c7b;
+}
+
+.banner-text{
+    margin-top: 15%;
+}
+
+.banner-text h1{
+    font-size: 50px;
+    color: #121212;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.text-color {
+    color: #b12c7b;
+    font-family: cursive;
+}
+.banner-text p {
+    color: #555;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.banner-text a{
+    background-color: #121212;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 5px;
+}
+
+.banner-text a:hover {
+    background-color: #b12c7b;
+}
+
+
+.image-wrap img {
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+
+.image-wrap img:hover{
+left: 40%;
+bottom: 40px;
+}
+
+.image-wrap {
+    background: #d393b7;
+    border-radius: 50%;
+    position: relative;
+}
+
+.image-wrap img {
+    transform: translate(10px);
+    transition: bottom 5s,left 5s;
+    left: 0;
+}
+
+.banner {
+    padding: 80px 0px;
+    background: #0555;
+}
+
+
+/* ------- Qualifications-section ----------------- */
+.purple-color{color: #b12c7b;}
+
+.padding-section {
+    padding: 50px 0px;
+}
+
+.heading h2 {
+    font-size: 40px;
+    color: #b12c7b;
+    font-weight: bold;
+}
+
+.quali-col.text-center {
+    background: #d393b7;
+    padding: 50px 0px;
+}
+
+.quali-col h3 {
+    font-family: fantasy;
+}
+
+.quali-col p {
+    font-family: cursive;
+}
+
+/* --------- Qualifiaction ----------------- */
+
+.quali-col1{
+    background-color: #0555;
+    padding: 50px 0px;
+}
+
+hr {
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+    border: 0;
+    border-top: 3px solid #b12c7b;
+    width: 20%;
+}
+
+.quali-col1 {
+    background-color: #0555;
+    padding: 50px 0px;
+    height: 250px;
+}
+
+.quali-col1 h3 {
+    font-family: fantasy;
+}
+
+.quali-col1 p {
+    font-family: cursive;
+}
+
+.quali-col:hover {
+    background: #0555;
+    border-radius: 50px 0px;
+}
+
+.quali-col1:hover {
+    background: #d393b7;
+    border-radius: 50px 0px;
+}
+
+/* --------- Contact--------- */
+
+h3 i {
+    color: #b12c7b;
+    margin: 30px 20px 0px 20px;
+}
+
+
+.contact-icon {
+    padding: 40px;
+}
+
+.contact-icon h3 a {
+    font-family: cursive;
+    color: #000000;
+    font-size: 25px;
+}
+
+.contact-section.padding-section {
+    background: lavender;
+}
+
+.contact-text hr {
+    float: left;
+    width: 250px;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+
+
+/* ----------------About ------------ */
+
+
+.my-image img {
+    border-radius: 30px;
+    width: 100%;
+    background: linear-gradient(to bottom, #33ccff 0%, #b12c7b 100%);
+}
+
+.my-image img {
+    border-radius: 30px;
+    width: 100%;
+}
+
+.my-text hr {
+    float: left;
+    width: 150px;
+    border-top: 3px solid #fff !important;
+}
+
+.my-text h2 {
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.my-text {
+    background: linear-gradient(to bottom, #33ccff 0%, #b12c7b 100%);
+    height: 541px;
+    padding: 50px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+
+
+/* -------------footer ------------- */
+
+.footer-section.text-center {
+    background: #121212;
+    padding: 25px;
+    color: #fff;
+}
+
+.footer-section p{
+        font-family: cursive;
+}
+
+
+@media (max-width:991px) {
+    ul.nav-items li {
+        padding: 0px 20px;
+        font-size: 14px;
+        list-style: none;
+    }
+    .image-wrap img {
+        width: 100%;
+    }
+
+    .contact-icon h3 a {
+        font-size: 18px;
+    }
+    .contact-icon {
+        padding: 40px 0px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .nav-bar {
+        display: none;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .logo img {
+        width: 35%;
+    }
+}
+
+@media (max-width:575px) {
+    .image-wrap img {
+        width: 50%;
+    }
+    .banner {
+        padding: 0px 0px 80px 0px;
+    }
+    .banner-text h1 {
+        font-size: 36px;
+        color: #121212;
+        margin-bottom: 20px;
+        font-weight: 900;
+    }
+    .banner-text {
+        margin-top: 15%;
+        text-align: center;
+        margin-bottom: 15%;
+    }
+    .banner-text a {
+        margin: 0px 0px;
+    }
+    .heading h2 {
+        font-size: 26px;
+    }
+    .padding-section {
+        padding: 20px 0px;
+    }
+}
